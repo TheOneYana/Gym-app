@@ -21,6 +21,7 @@ const Home = ({ setSelectedPage }: Props) => {
       {/* img and main header */}
       <motion.div
         className="md:flex mx-auto w-5/6 items-center justify-center md:h-5/6"
+        // updates color of the page we are on when scrolling
         onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
       >
         {/* main header */}
