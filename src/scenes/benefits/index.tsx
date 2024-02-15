@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Our gym is equipped with the latest fitness technology and amenities to elevate your workout experience.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "From high-intensity interval training (HIIT) to relaxing yoga sessions, our schedule features hundreds of options to keep you engaged and motivated on your fitness journey.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "With years of experience and specialized knowledge, our trainers provide personalized guidance and support to ensure you get the most out of every workout.",
   },
 ];
 
@@ -131,18 +131,19 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                At our gym, we take immense pride in our community of millions
+                of happy members who are achieving their fitness goals and
+                transforming their lives. From beginners taking their first
+                steps towards a healthier lifestyle to seasoned athletes pushing
+                their limits, our diverse range of members find support,
+                motivation, and success within our welcoming environment.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Whether you're looking to shed a few pounds, build muscle,
+                increase endurance, or simply improve your overall well-being,
+                our state-of-the-art facilities, expert trainers, and
+                comprehensive range of classes and programs are here to guide
+                you every step of the way.
               </p>
             </motion.div>
 
