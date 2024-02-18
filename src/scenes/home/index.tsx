@@ -1,4 +1,3 @@
-import React from "react";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMedisQuery";
 import ActionButton from "@/shared/ActionButton";
